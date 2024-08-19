@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JKG-Imóveis.</title>
+  <title>JKG-Imóveis. Casas para alugar.</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
+  
   <script src="script.js"></script>
 </body>
 
