@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #F4EAFB; /* Fundo roxo claro */
+    color: #333333; /* Texto em cinza escuro */
+    
+}
+#login{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5%;
+    text-align: left;
+}
+input[type="password"],
+input[type="email"] {
+    padding: 5px;
+    width: 15rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8A05BE;
+}
+
+button:hover {
+    background-color: #6A05BE;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
