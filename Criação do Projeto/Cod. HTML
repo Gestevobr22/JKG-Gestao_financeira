@@ -1,15 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>JKG-Gestão Financeira</title>
+    <title>JKG - Gestão Financeira</title>
+    <link rel="stylesheet" href="home.css" />
   </head>
-
   <body>
     <header>
-      <h1>JKG-Gestão Financeira</h1>
+      <div class="logo">
+        <img src="Captura de tela 2024-09-18 221203.png" alt="Logo JKG" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Funcionalidades</a></li>
+          <li><a href="#">Preços</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Entrar</a></li>
+          <li><a href="#">Usuário</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <section class="partners">
+      <h2>Principais Parceiros do JKG - Gestão Financeira</h2>
+      <div class="partner-logos">
+        <img src="imgs/Santander.jpg" alt="Parceiro 1" />
+        <img src="imgs/Banco do Brasil.jpg" alt="Parceiro 2" />
+        <img src="imgs/Inter.jpg" alt="Parceiro 3" />
+        <img src="imgs/Nubank.jpg" alt="Parceiro 4" />
+      </div>
+    </section>
+
+    <section class="hero">
+      <h1>Seu futuro financeiro começa aqui</h1>
+      <p>Transforme sua gestão financeira em um jogo fácil</p>
+      <form>
+        <input type="email" placeholder="Seu Email" required />
+        <button type="submit">Criar Conta Grátis</button>
+      </form>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>Controle suas Despesas</h3>
+        <p>
+          Gerencie com precisão todas as despesas dos seus cartões de crédito...
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Acompanhe as suas Metas</h3>
+        <p>Crie metas e acompanhe sua evolução...</p>
+      </div>
+      <div class="feature">
+        <h3>Controle a sua Riqueza</h3>
+        <p>Gerencie seu patrimônio e acompanhe seus investimentos...</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <button>Criar Conta Grátis</button>
+    </section>
+
+    <section class="additional-features">
+      <div class="feature">
+        <h3>Conexão com o banco automático</h3>
+        <p>
+          Importe extratos do seu banco de forma automática e faça conciliação
+          bancária.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Centro de Custos e de Lucros</h3>
+        <p>
+          Controle quanto está gastando com cada setor e saiba a origem das
+          receitas e despesas.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Usuários Adicionais</h3>
+        <p>
+          Adicione outras pessoas para participar do seu planejamento
+          financeiro.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Redes Sociais</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Ajuda e Suporte</a>
+        <a href="#">Termos de Serviço</a>
+      </div>
+      <p>&copy; 2024 JKG - Gestão Financeira. Todos os direitos reservados.</p>
+      <p>
+        Desenvolvido por: João Jesus, Gabriel Estevo, Henrique Mendes, Brenno
+        Moises e Da Silva.
+      </p>
+    </footer>
   </body>
 </html>
