@@ -1,1 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #00509e;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  width: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.partners {
+  text-align: center;
+  padding: 20px;
+}
+
+.partner-logos img {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.hero {
+  background-color: #0073e6;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: #0073e6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00509e;
+  color: white;
+}
+
+.hero-image {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f0f8ff;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+}
+
+.feature h3 {
+  color: #00509e;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cta {
+  text-align: center;
+  padding: 30px;
+}
+
+.cta button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #00509e;
+}
+
+.additional-features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+footer {
+  background-color: #00509e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
