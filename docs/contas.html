@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+
+    <title>JKG - Contas Finance</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html"
+          ><img src="imgs/Logo.jpg" alt="Logo do JKG - Gestão Financeira"
+        /></a>
+      </div>
+      <nav aria-label="Navegação principal" class="nav">
+        <button class="hamburger"></button>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="login.html">Entrar</a></li>
+          <li><a href="#">Usuário</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="painel">
+      <div class="box box1">
+        <div class="flex-card">
+          <h2>Entradas</h2>
+          <img class="icon" src="imgs/arrow.png" alt="" />
+        </div>
+        <h3>R$ 3.450,00</h3>
+      </div>
+      <div class="box box2">
+        <div class="flex-card">
+          <h2>Saidas</h2>
+          <img class="icon" src="imgs/arrowred.png" alt="" />
+        </div>
+        <h3>R$ 935,70</h3>
+      </div>
+      <div class="box box3">
+        <div class="flex-card">
+          <h2>Total</h2>
+          <img class="icon" src="imgs/cifrao.png" alt="" />
+        </div>
+        <h3>R$ 2.514,30</h3>
+      </div>
+    </div>
+    <div id="contas">
+      <button
+        id="novos"
+        onclick="window.location.href='novos_lançamento.html';"
+      >
+        Novos lançamentos
+      </button>
+    </div>
+    <div class="content">
+      <table class="rTable">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Preço</th>
+            <th>Categoria</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aguá</td>
+            <td class="red">R$ -129,90</td>
+            <td>Casa</td>
+            <td>25/09/2024</td>
+          </tr>
+          <tr>
+            <td>Soldo</td>
+            <td>R$ 3450,00</td>
+            <td>Salario</td>
+            <td>25/09/2024</td>
+          </tr>
+          <tr>
+            <td>Calça</td>
+            <td class="red">R$ -75,90</td>
+            <td>Roupa</td>
+            <td>25/09/2024</td>
+          </tr>
+          <tr>
+            <td>Aluguel</td>
+            <td class="red">R$ -729,90</td>
+            <td>Casa</td>
+            <td>25/09/2024</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      <div class="footer-links">
+        <a href="#">Redes Sociais</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Ajuda e Suporte</a>
+        <a href="#">Termos de Serviço</a>
+      </div>
+      <p class="foter">
+        &copy; 2024 JKG - Gestão Financeira. Todos os direitos reservados.
+      </p>
+      <p class="foter2">
+        Desenvolvido por: João Jesus, Gabriel Estevo, Henrique Mendes, Brenno
+        Moises e Da Silva.
+      </p>
+    </footer>
+  </body>
+</html>
